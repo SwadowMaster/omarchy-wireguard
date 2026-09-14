@@ -1,8 +1,8 @@
 # WireGuard
 
-The tunnel, only while it's up. Interface, IP, endpoint on hover. Nothing when you're off.
+If the tunnel is up, you see it. If it isn't, you don't.
 
-A quiet chip for the [Omarchy](https://omarchy.org/) Quattro bar. It does not start or stop WireGuard; it just tells you whether a tunnel is actually connected.
+A small chip with the interface and its IP. Hover for the endpoint. It never brings a tunnel up, never tears one down, and never asks for sudo. Omarchy already has a network widget; this one is only WireGuard.
 
 Plugin id: `io.github.swadowmaster.wireguard`
 
@@ -26,8 +26,6 @@ How it decides what is connected:
 Commands are called as `/usr/bin/ip` and `/usr/bin/wg`. If `wg` is missing, names and IPs still work via `ip`; endpoints are then omitted.
 
 The bar shows `iface ip` for each active tunnel, separated by `·`. Hover shows the same data plus endpoints. If `active` is empty, the widget sets its width to zero and disappears. It comes back when a tunnel gets an address.
-
-This plugin does not replace Omarchy's network widget. It only reports WireGuard.
 
 ## Install
 

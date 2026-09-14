@@ -6,14 +6,14 @@
   "author": "SwadowMaster",
   "license": "MIT",
   "homepage": "https://github.com/SwadowMaster/omarchy-wireguard",
-  "description": "The tunnel, only while it's up. Interface, IP, endpoint on hover. Nothing when you're off.",
+  "description": "If the tunnel is up, you see it. Interface, IP, endpoint on hover. Nothing when you're off.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
     "displayName": "WireGuard",
-    "description": "Shows the live WireGuard interface and IP, hides when disconnected.",
+    "description": "If the tunnel is up, you see it. Nothing when you're off.",
     "category": "Network",
     "allowMultiple": false,
     "defaultSection": "right"
