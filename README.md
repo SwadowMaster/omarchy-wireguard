@@ -1,8 +1,8 @@
 # WireGuard
 
-Status widget for the [Omarchy](https://omarchy.org/) Quattro bar.
+The tunnel, only while it's up. Interface, IP, endpoint on hover. Nothing when you're off.
 
-Shows active WireGuard interfaces and their IPv4 addresses. Hover for endpoint details. The widget hides when no tunnel is up.
+A quiet chip for the [Omarchy](https://omarchy.org/) Quattro bar. It does not start or stop WireGuard; it just tells you whether a tunnel is actually connected.
 
 Plugin id: `io.github.swadowmaster.wireguard`
 

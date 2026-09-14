@@ -6,14 +6,14 @@
   "author": "SwadowMaster",
   "license": "MIT",
   "homepage": "https://github.com/SwadowMaster/omarchy-wireguard",
-  "description": "Shows active WireGuard tunnels and their IPs on the Omarchy Quattro bar. Hides when nothing is connected.",
+  "description": "The tunnel, only while it's up. Interface, IP, endpoint on hover. Nothing when you're off.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
     "displayName": "WireGuard",
-    "description": "Active WireGuard interface and address.",
+    "description": "Shows the live WireGuard interface and IP, hides when disconnected.",
     "category": "Network",
     "allowMultiple": false,
     "defaultSection": "right"
